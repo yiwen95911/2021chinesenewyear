@@ -25,6 +25,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: "jf-jinxuanlatte", Microsoft JhengHei, PingFang, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 /*導覽列*/
