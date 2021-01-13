@@ -104,6 +104,7 @@ h2{
   line-height: 25px;
   padding: 5px;
   text-align: center;
+  z-index: 100;
 }
 
 .aside-menu hr {
