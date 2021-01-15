@@ -247,7 +247,7 @@ h2{
 }
 
 /* 手機板導覽列 */
-.mobile-menu {
+.mobile-menu{
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -263,7 +263,7 @@ h2{
   bottom: -2rem;
 }
 
-.mobile-menu ul {
+.mobile-menu ul{
   position: absolute;
   display: flex;
   margin: 0 2%;
@@ -273,13 +273,13 @@ h2{
   height: 50%;
 }
 
-.mobile-menu ul li {
+.mobile-menu ul li{
   width: 100%;
   height: 100%;
   margin: 0 1%;
 }
 
-.mobile-menu ul li a {
+.mobile-menu ul li a{
   width: 100%;
   height: 100%;
 }
