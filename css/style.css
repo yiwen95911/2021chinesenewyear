@@ -164,7 +164,7 @@ h2{
   flex-flow: wrap;
 }
 
-.typetwo{
+.products.typetwo{
   margin-top: 0rem;
 }
 
@@ -262,11 +262,14 @@ h2{
 
 /* line */
 
-.line img{
-  width: 50%;
+.line a{
+  width: 25%;
   height: auto;
-  margin: auto;
-  margin-top: -6rem;
+  margin: -2rem auto 2rem;
+}
+
+.line a:hover{
+  filter: drop-shadow(0.05rem 0.05rem 0rem #5c5c5c);
 }
 
 /* 手機板導覽列 */
@@ -357,7 +360,7 @@ h2{
     padding: 0.2rem;
   }
 
-  .typetwo{
+  .products.typetwo{
     margin-top: 0rem;
   }
 
@@ -378,18 +381,18 @@ h2{
     line-height: 1.8rem;
   }
 
-  .commision {
+  .commision{
     margin-bottom: 0.8rem;
   }
 
-  .CPS {
+  .CPS{
     margin-bottom: 0.8rem;
     font-size: 1.2rem;
   }
 
-  .line img{
-    width: 80%;
-    margin-bottom: 3rem;
+  .line a{
+    width: 70%;
+    margin: -1rem auto 7rem;
   }
 
   .mobile-menu{
