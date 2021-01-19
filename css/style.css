@@ -29,6 +29,7 @@ body{
 }
 
 /*導覽列*/
+
 h2{
   text-align: center;
   font-weight: 700;
@@ -85,6 +86,7 @@ h2{
 }
 
 /* PC側邊導覽 */
+
 .aside-menu{
   position: fixed;
   right: 8px;
@@ -103,8 +105,14 @@ h2{
   font-weight: 900;
   font-size: 1.25rem;
   line-height: 25px;
-  padding: 5px;
+  padding: 0.5px;
   text-align: center;
+  border-radius: 5px;
+  margin: 12px 8px;
+}
+
+.aside-menu .orange{
+  color: #D45D00;
 }
 
 .aside-menu hr{
@@ -115,7 +123,8 @@ h2{
 }
 
 .aside-menu li :hover{
-  text-shadow: 0.05rem 0.05rem 0rem #5c5c5c;
+  filter: drop-shadow(0.05rem 0.05rem 0rem #5c5c5c);
+  box-shadow: 0.05rem 0.05rem 0rem #5c5c5c;
 }
 
 .mobile-menu{
@@ -123,14 +132,22 @@ h2{
 }
 
 /* 標題+產品區 */
+
 .wrapper{
   position: relative;
   width: 1300px;
   margin: 7rem auto;
-  background: #FFC736;
+  background:#FFC736;
   border: 20px double #ffffffb9;
   border-radius: 2rem;
   box-shadow: 0.5rem 0.5rem 0rem #00000093;
+}
+
+.wrapper.bkg{
+  background-image:url(../images/background.png);
+  background-size: 80%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 .title{
@@ -147,12 +164,17 @@ h2{
   flex-flow: wrap;
 }
 
+.typetwo{
+  margin-top: 0rem;
+}
+
 .title2{
   width: 500px;
   margin: 1.5rem 375px 1rem;
 }
 
 /* 卡片 */
+
 .ader{
   width: 18%;
   background: #ffffff;
@@ -239,14 +261,16 @@ h2{
 }
 
 /* line */
+
 .line img{
-  width: 30%;
+  width: 50%;
   height: auto;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-top: -6rem;
 }
 
 /* 手機板導覽列 */
+
 .mobile-menu{
   position: fixed;
   width: 100%;
@@ -286,6 +310,7 @@ h2{
 
 
 /* 手機板 */
+
 @media screen and (max-width: 768px){
   html{
     font-size: 12px;
@@ -303,6 +328,18 @@ h2{
     width: 100%;
     margin: 3rem 0;
     border: 0.5rem double #ffffffb9;
+    padding-bottom: 0.3rem;
+  }
+
+  .wrapper.bkg{
+    background-image:none;
+  }
+
+  .wrapper.mbkg{
+    background-image:url(../images/mobile_background.png);
+    background-size: 45%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
   }
 
   .title{
@@ -312,12 +349,16 @@ h2{
 
   .title2{
     width: 60%;
-    margin: 1rem auto 0;
+    margin: 0.5rem auto 0.5rem;
   }
   
   .products{
     margin-top: -4rem;
     padding: 0.2rem;
+  }
+
+  .typetwo{
+    margin-top: 0rem;
   }
 
   .ader{
@@ -347,10 +388,8 @@ h2{
   }
 
   .line img{
-    width: 60%;
-    height: auto;
-    margin: auto;
-    margin-bottom: 6rem;
+    width: 80%;
+    margin-bottom: 3rem;
   }
 
   .mobile-menu{
