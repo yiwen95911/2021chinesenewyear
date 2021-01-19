@@ -107,8 +107,9 @@ h2{
   line-height: 25px;
   padding: 0.5px;
   text-align: center;
-  border-radius: 5px;
   margin: 12px 8px;
+  border-radius: 5px;
+  transition: border-radius 0.4s;
 }
 
 .aside-menu .orange{
@@ -123,8 +124,9 @@ h2{
 }
 
 .aside-menu li :hover{
-  filter: drop-shadow(0.05rem 0.05rem 0rem #5c5c5c);
-  box-shadow: 0.05rem 0.05rem 0rem #5c5c5c;
+  background: #FDF0C4;
+  border-radius: 50px;
+  box-shadow: 0 0 0.5rem #FDF0C4;
 }
 
 .mobile-menu{
